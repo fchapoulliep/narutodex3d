@@ -1,0 +1,91 @@
+#naruto-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+#naruto-overlay .naruto-description {
+  position: absolute;
+  left: 0%;
+  bottom: 5%;
+  font-style: italic;
+  border-radius: 0 15px 15px 0;
+  padding-left: 10px;
+  padding-right: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-top: 4px solid rgba(0, 0, 0, 0.7);
+  border-right: 4px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.7);
+  color: #fff;
+  transform: rotateZ("20");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 20%;
+  max-width: 30%;
+  z-index: 1;
+  transition: 200ms all;
+  padding-bottom: 4px;
+}
+
+#naruto-overlay .naruto-description h2 {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+#naruto-overlay .naruto-description p {
+  margin: 5px 0;
+}
+
+#naruto-overlay .naruto-types {
+  position: absolute;
+  right: 0%;
+  bottom: 5%;
+  font-style: italic;
+  border-radius: 15px 0 0 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-top: 4px solid rgba(0, 0, 0, 0.7);
+  border-left: 4px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.7);
+  color: #fff;
+  transform: rotateZ("20");
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  min-width: 20%;
+  max-width: 30%;
+  padding: 5px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #naruto-overlay p {
+    font-size: 12px;
+  }
+
+  #naruto-overlay h2 {
+    font-size: 16px;
+  }
+
+  #naruto-overlay .naruto-types img {
+    width: 16px;
+    height: 16px;
+  }
+
+  #naruto-overlay .naruto-types p {
+    font-size: 10px;
+  }
+
+  #naruto-overlay .naruto-types .type-div:first-child p {
+    margin-right: 5px;
+  }
+}

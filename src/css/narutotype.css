@@ -1,0 +1,28 @@
+.type-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.naruto-type {
+  display: block;
+  border-radius: 100%;
+  height: 24px;
+  width: 24px;
+  padding: 4px;
+  transition: 200ms all;
+  margin-right: 5px;
+}
+
+#evil {
+  background: transparent;
+}
+
+#hero {
+  background: transparent;
+}
+
+.type-div p {
+  margin: 0;
+  font-size: 16px;
+}
