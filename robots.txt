@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fchapoulliep.github.io/narutodex3d/sitemap.xml
