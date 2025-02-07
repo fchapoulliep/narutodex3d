@@ -69,10 +69,11 @@ const NarutoModel: React.FC<NarutoModelProps> = ({ modelPath }) => {
 
       const delta = Math.min(1.0 / size.x, 1.0 / size.y, 1.0 / size.z);
       scene.scale.set(delta, delta, delta);
+      scene.rotation.y = -0.5;
     }
   }, [scene]);
 
-  return <primitive object={scene} scale={0.25} position={[0, -2, 0]} />;
+  return <primitive object={scene} scale={0.25} position={[0, -2, 0.5]} />;
 };
 
 /**
@@ -81,14 +82,10 @@ const NarutoModel: React.FC<NarutoModelProps> = ({ modelPath }) => {
  * @returns The Naruto Character page with the 3D model, description, and type information.
  */
 const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
-  const narutocharacter = narutoList.find(
-    (p) => p.id === parseInt(narutoId)
-  );
+  const narutocharacter = narutoList.find((p) => p.id === parseInt(narutoId));
   const [loading, setLoading] = React.useState(true);
 
-  const narutocharacterName = narutocharacter
-    ? narutocharacter.name
-    : "";
+  const narutocharacterName = narutocharacter ? narutocharacter.name : "";
 
   const modelPath = useMemo(
     () =>
@@ -139,7 +136,9 @@ const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
       style={{
         backgroundImage: `url(${
           import.meta.env.BASE_URL
-        }backgrounds/${narutocharacter.village.toLowerCase().replace(/ /g, "-")}.png)`,
+        }backgrounds/${narutocharacter.village
+          .toLowerCase()
+          .replace(/ /g, "-")}.png)`,
         backgroundPosition: "bottom",
         backgroundSize: "cover",
       }}
@@ -150,10 +149,9 @@ const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
         <p>{narutocharacter.description}</p>
       </div>
       <div className="naruto-types">
-        <NarutoType
-          key={narutocharacter.clan}
-          type={narutocharacter.clan}
-        />
+        {narutocharacter.clan.map((clanItem) => (
+          <NarutoType key={clanItem} type={clanItem} />
+        ))}
       </div>
 
       <Canvas style={{ background: "transparent" }} shadows key={modelPath}>
@@ -165,7 +163,6 @@ const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
           dampingFactor={0.25}
           minDistance={2}
           maxDistance={6}
-          autoRotate
         />
         <NarutoModel modelPath={modelPath} />
       </Canvas>

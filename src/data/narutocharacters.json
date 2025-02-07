@@ -1,373 +1,373 @@
 [
   {
-    "name": "Isshiki Ōtsutsuki",
-    "id": 1,
-    "clan": "Ōtsutsuki",
-    "description": "A powerful member of the Ōtsutsuki clan with god-like abilities and a desire to harvest the chakra fruit.",
-    "village": "Unknown"
-  },
-  {
-    "name": "Kawaki",
-    "id": 2,
-    "clan": "Unknown",
-    "description": "A vessel for Karma and a key figure in the battle against the Ōtsutsuki clan.",
+    "name": "Hashirama Senju",
+    "id": 15,
+    "clan": ["Senju", "First Hokage"],
+    "description": "The First Hokage and founder of Konohagakure, known as the 'God of Shinobi'.",
     "village": "Konohagakure"
   },
   {
-    "name": "Mitsuki",
-    "id": 3,
-    "clan": "Artificial Human",
-    "description": "A synthetic human created by Orochimaru, possessing the Sage Transformation ability.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Naruto Uzumaki (Baryon Mode)",
-    "id": 4,
-    "clan": "Uzumaki",
-    "description": "Naruto's ultimate form, achieved by combining Kurama's chakra with his own life force.",
+    "name": "Tobirama Senju",
+    "id": 32,
+    "clan": ["Senju", "Second Hokage"],
+    "description": "The Second Hokage, known for his mastery of Water Release and the creation of many powerful techniques.",
     "village": "Konohagakure"
   },
   {
     "name": "Hiruzen Sarutobi",
     "id": 5,
-    "clan": "Sarutobi",
+    "clan": ["Sarutobi", "Third Hokage"],
     "description": "The Third Hokage, known as the 'Professor' for his mastery of all ninja techniques.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Minato Namikaze",
+    "id": 24,
+    "clan": ["Namikaze", "Fourth Hokage"],
+    "description": "The Fourth Hokage, known as the 'Yellow Flash' for his incredible speed and mastery of the Flying Thunder God Technique.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Tsunade",
+    "id": 38,
+    "clan": ["Senju", "Fifth Hokage"],
+    "description": "The Fifth Hokage and one of the Legendary Sannin, known for her medical ninjutsu and immense strength.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Kakashi Hatake",
+    "id": 20,
+    "clan": ["Hatake", "Sixth Hokage"],
+    "description": "The Copy Ninja, known for his Sharingan and mastery of over a thousand techniques.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "id": 25,
+    "clan": ["Uzumaki", "Seventh Hokage"],
+    "description": "The Seventh Hokage and jinchūriki of Kurama, known for his determination and mastery of the Shadow Clone Technique.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Naruto Uzumaki (Baryon Mode)",
+    "id": 4,
+    "clan": ["Uzumaki", "Seventh Hokage"],
+    "description": "Naruto's ultimate form, achieved by combining Kurama's chakra with his own life force.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Naruto Uzumaki (Next Generations)",
+    "id": 53,
+    "clan": ["Uzumaki", "Seventh Hokage"],
+    "description": "The Seventh Hokage and jinchūriki of Kurama, known for his determination and mastery of the Shadow Clone Technique.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Sasuke Uchiha",
+    "id": 30,
+    "clan": ["Uchiha"],
+    "description": "A prodigy of the Uchiha clan, seeking redemption and power to protect the village.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Sasuke Uchiha (Next Generations)",
+    "id": 46,
+    "clan": ["Uchiha"],
+    "description": "A prodigy of the Uchiha clan, seeking redemption and power to protect the village.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Sakura Haruno",
+    "id": 8,
+    "clan": ["Haruno"],
+    "description": "A skilled kunoichi with immense strength and medical ninjutsu abilities.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Sakura Uchiha (Next Generations)",
+    "id": 45,
+    "clan": ["Haruno"],
+    "description": "A skilled kunoichi with immense strength and medical ninjutsu abilities.",
     "village": "Konohagakure"
   },
   {
     "name": "Kakashi Hatake (Next Generations)",
     "id": 6,
-    "clan": "Hatake",
+    "clan": ["Hatake", "Sixth Hokage"],
     "description": "The Sixth Hokage, a legendary ninja with the Sharingan and mastery of the Lightning Blade.",
     "village": "Konohagakure"
   },
   {
     "name": "Konohamaru Sarutobi (Next Generations)",
     "id": 7,
-    "clan": "Sarutobi",
+    "clan": ["Sarutobi"],
     "description": "The grandson of the Third Hokage, striving to become a strong ninja and protect his village.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Sakura Haruno",
-    "id": 8,
-    "clan": "Haruno",
-    "description": "A skilled kunoichi with immense strength and medical ninjutsu abilities.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Sarada Uchiha",
-    "id": 9,
-    "clan": "Uchiha",
-    "description": "The daughter of Sasuke and Sakura, aspiring to become Hokage and master the Sharingan.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Boruto Uzumaki",
-    "id": 10,
-    "clan": "Uzumaki",
-    "description": "The son of Naruto Uzumaki, a prodigy with the Jougan and a desire to carve his own path.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Chōji Akimichi",
-    "id": 11,
-    "clan": "Akimichi",
-    "description": "A member of Team Asuma, known for his immense strength and ability to expand his body.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Deidara",
-    "id": 12,
-    "clan": "Unknown",
-    "description": "A rogue ninja and member of the Akatsuki, specializing in explosive clay techniques.",
-    "village": "Iwagakure"
-  },
-  {
-    "name": "Gaara",
-    "id": 13,
-    "clan": "Unknown",
-    "description": "The Fifth Kazekage, once a jinchūriki of Shukaku, now a protector of his village.",
-    "village": "Sunagakure"
-  },
-  {
-    "name": "Haku",
-    "id": 14,
-    "clan": "Yuki",
-    "description": "A skilled ice-style user and loyal companion to Zabuza Momochi.",
-    "village": "Kirigakure"
-  },
-  {
-    "name": "Hashirama Senju",
-    "id": 15,
-    "clan": "Senju",
-    "description": "The First Hokage and founder of Konohagakure, known as the 'God of Shinobi'.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Hinata Hyūga",
-    "id": 16,
-    "clan": "Hyūga",
-    "description": "A gentle kunoichi with the Byakugan, known for her love for Naruto and her growth as a ninja.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Itachi Uchiha",
-    "id": 17,
-    "clan": "Uchiha",
-    "description": "A prodigy of the Uchiha clan, known for his sacrifice and mastery of the Sharingan.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Jiraiya",
-    "id": 18,
-    "clan": "Unknown",
-    "description": "One of the Legendary Sannin, a master of ninjutsu and mentor to Naruto Uzumaki.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Kabuto Yakushi",
-    "id": 19,
-    "clan": "Unknown",
-    "description": "A former spy and disciple of Orochimaru, known for his medical ninjutsu and Sage Transformation.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Kakashi Hatake",
-    "id": 20,
-    "clan": "Hatake",
-    "description": "The Copy Ninja, known for his Sharingan and mastery of over a thousand techniques.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Killer Bee",
-    "id": 21,
-    "clan": "Unknown",
-    "description": "The jinchūriki of the Eight-Tails and a master of the unique Eight-Tails style of combat.",
-    "village": "Kumogakure"
-  },
-  {
-    "name": "Konan",
-    "id": 22,
-    "clan": "Unknown",
-    "description": "A member of the Akatsuki, known for her paper-based ninjutsu and loyalty to Nagato.",
-    "village": "Amegakure"
-  },
-  {
-    "name": "Rock Lee",
-    "id": 23,
-    "clan": "Unknown",
-    "description": "A taijutsu specialist who overcomes his lack of ninjutsu with incredible determination and hard work.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Minato Namikaze",
-    "id": 24,
-    "clan": "Namikaze",
-    "description": "The Fourth Hokage, known as the 'Yellow Flash' for his incredible speed and mastery of the Flying Thunder God Technique.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Naruto Uzumaki",
-    "id": 25,
-    "clan": "Uzumaki",
-    "description": "The Seventh Hokage and jinchūriki of Kurama, known for his determination and mastery of the Shadow Clone Technique.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Ōnoki",
-    "id": 26,
-    "clan": "Unknown",
-    "description": "The Third Tsuchikage, known for his mastery of Earth Release and Particle Style techniques.",
-    "village": "Iwagakure"
-  },
-  {
-    "name": "Orochimaru",
-    "id": 27,
-    "clan": "Unknown",
-    "description": "One of the Legendary Sannin, a rogue ninja obsessed with immortality and mastering all ninjutsu.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Pain",
-    "id": 28,
-    "clan": "Unknown",
-    "description": "The leader of the Akatsuki, possessing the Rinnegan and the ability to control multiple bodies.",
-    "village": "Amegakure"
-  },
-  {
-    "name": "Sai Yamanaka",
-    "id": 29,
-    "clan": "Yamanaka",
-    "description": "A member of Team Kakashi, known for his artistic ninjutsu and calm demeanor.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Sasuke Uchiha",
-    "id": 30,
-    "clan": "Uchiha",
-    "description": "A prodigy of the Uchiha clan, seeking redemption and power to protect the village.",
     "village": "Konohagakure"
   },
   {
     "name": "Shikamaru Nara",
     "id": 31,
-    "clan": "Nara",
+    "clan": ["Nara"],
     "description": "A tactical genius with the ability to manipulate shadows, known for his laziness and intelligence.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Tobirama Senju",
-    "id": 32,
-    "clan": "Senju",
-    "description": "The Second Hokage, known for his mastery of Water Release and the creation of many powerful techniques.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Yamato",
-    "id": 33,
-    "clan": "Unknown",
-    "description": "A ninja with the ability to use Wood Release, tasked with keeping Naruto's Nine-Tails chakra in check.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Zabuza Momochi",
-    "id": 34,
-    "clan": "Momochi",
-    "description": "The Demon of the Hidden Mist, a master of silent killing and wielder of the Kubikiribōchō.",
-    "village": "Kirigakure"
-  },
-  {
-    "name": "Kisame Hoshigaki",
-    "id": 35,
-    "clan": "Hoshigaki",
-    "description": "A member of the Akatsuki, known as the 'Monster of the Hidden Mist' for his shark-like abilities.",
-    "village": "Kirigakure"
-  },
-  {
-    "name": "Madara Uchiha",
-    "id": 36,
-    "clan": "Uchiha",
-    "description": "A legendary Uchiha who sought to create a world of infinite Tsukuyomi, possessing immense power.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Obito Uchiha",
-    "id": 37,
-    "clan": "Uchiha",
-    "description": "A former student of Minato, who became the masked man behind much of the series' conflict.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Tsunade",
-    "id": 38,
-    "clan": "Senju",
-    "description": "The Fifth Hokage and one of the Legendary Sannin, known for her medical ninjutsu and immense strength.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Chōji Akimichi (Next Generations)",
-    "id": 39,
-    "clan": "Akimichi",
-    "description": "A member of Team Asuma, known for his immense strength and ability to expand his body.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Gaara (Next Generations)",
-    "id": 40,
-    "clan": "Unknown",
-    "description": "The Fifth Kazekage, once a jinchūriki of Shukaku, now a protector of his village.",
-    "village": "Sunagakure"
-  },
-  {
-    "name": "Hinata Uzumaki (Next Generations)",
-    "id": 41,
-    "clan": "Hyūga",
-    "description": "A gentle kunoichi with the Byakugan, known for her love for Naruto and her growth as a ninja.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Ino Yamanaka (Next Generations)",
-    "id": 42,
-    "clan": "Yamanaka",
-    "description": "A member of Team Asuma, known for her mind transfer techniques and her rivalry with Sakura.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Rock Lee (Next Generations)",
-    "id": 43,
-    "clan": "Unknown",
-    "description": "A taijutsu specialist who overcomes his lack of ninjutsu with incredible determination and hard work.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Sai Yamanaka (Next Generations)",
-    "id": 44,
-    "clan": "Yamanaka",
-    "description": "A member of Team Kakashi, known for his artistic ninjutsu and calm demeanor.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Sakura Uchiha (Next Generations)",
-    "id": 45,
-    "clan": "Haruno",
-    "description": "A skilled kunoichi with immense strength and medical ninjutsu abilities.",
-    "village": "Konohagakure"
-  },
-  {
-    "name": "Sasuke Uchiha (Next Generations)",
-    "id": 46,
-    "clan": "Uchiha",
-    "description": "A prodigy of the Uchiha clan, seeking redemption and power to protect the village.",
     "village": "Konohagakure"
   },
   {
     "name": "Shikamaru Nara (Next Generations)",
     "id": 47,
-    "clan": "Nara",
+    "clan": ["Nara"],
     "description": "A tactical genius with the ability to manipulate shadows, known for his laziness and intelligence.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Chōji Akimichi",
+    "id": 11,
+    "clan": ["Akimichi"],
+    "description": "A member of Team Asuma, known for his immense strength and ability to expand his body.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Chōji Akimichi (Next Generations)",
+    "id": 39,
+    "clan": ["Akimichi"],
+    "description": "A member of Team Asuma, known for his immense strength and ability to expand his body.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Ino Yamanaka",
+    "id": 52,
+    "clan": ["Yamanaka"],
+    "description": "A member of Team Asuma, known for her mind transfer techniques and her rivalry with Sakura.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Ino Yamanaka (Next Generations)",
+    "id": 42,
+    "clan": ["Yamanaka"],
+    "description": "A member of Team Asuma, known for her mind transfer techniques and her rivalry with Sakura.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Sai Yamanaka",
+    "id": 29,
+    "clan": ["Yamanaka"],
+    "description": "A member of Team Kakashi, known for his artistic ninjutsu and calm demeanor.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Sai Yamanaka (Next Generations)",
+    "id": 44,
+    "clan": ["Yamanaka"],
+    "description": "A member of Team Kakashi, known for his artistic ninjutsu and calm demeanor.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Rock Lee",
+    "id": 23,
+    "clan": ["Unknown"],
+    "description": "A taijutsu specialist who overcomes his lack of ninjutsu with incredible determination and hard work.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Rock Lee (Next Generations)",
+    "id": 43,
+    "clan": ["Unknown"],
+    "description": "A taijutsu specialist who overcomes his lack of ninjutsu with incredible determination and hard work.",
     "village": "Konohagakure"
   },
   {
     "name": "Tenten (Next Generations)",
     "id": 48,
-    "clan": "Unknown",
+    "clan": ["Unknown"],
     "description": "A weapons specialist with a vast arsenal of ninja tools and a dream to become a legendary kunoichi.",
     "village": "Konohagakure"
   },
   {
     "name": "Shino Aburame (Next Generations)",
     "id": 49,
-    "clan": "Aburame",
+    "clan": ["Aburame"],
     "description": "A quiet and analytical ninja who uses insects to fight and gather information.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Hinata Hyūga",
+    "id": 16,
+    "clan": ["Hyūga"],
+    "description": "A gentle kunoichi with the Byakugan, known for her love for Naruto and her growth as a ninja.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Hinata Uzumaki (Next Generations)",
+    "id": 41,
+    "clan": ["Hyūga"],
+    "description": "A gentle kunoichi with the Byakugan, known for her love for Naruto and her growth as a ninja.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Sarada Uchiha",
+    "id": 9,
+    "clan": ["Uchiha"],
+    "description": "The daughter of Sasuke and Sakura, aspiring to become Hokage and master the Sharingan.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Boruto Uzumaki",
+    "id": 10,
+    "clan": ["Uzumaki"],
+    "description": "The son of Naruto Uzumaki, a prodigy with the Jougan and a desire to carve his own path.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Mitsuki",
+    "id": 3,
+    "clan": ["Artificial Human"],
+    "description": "A synthetic human created by Orochimaru, possessing the Sage Transformation ability.",
     "village": "Konohagakure"
   },
   {
     "name": "Mitsuki (Post Sage Mode)",
     "id": 50,
-    "clan": "Artificial Human",
+    "clan": ["Artificial Human"],
     "description": "Mitsuki after mastering Sage Mode, showcasing enhanced abilities and strength.",
     "village": "Konohagakure"
   },
   {
     "name": "Mitsuki (Sage Mode)",
     "id": 51,
-    "clan": "Unknown",
+    "clan": ["Unknown"],
     "description": "A powerful transformation that enhances the user's physical abilities and sensory perception.",
     "village": "Konohagakure"
   },
   {
-    "name": "Ino Yamanaka",
-    "id": 52,
-    "clan": "Yamanaka",
-    "description": "A member of Team Asuma, known for her mind transfer techniques and her rivalry with Sakura.",
+    "name": "Kawaki",
+    "id": 2,
+    "clan": ["Unknown"],
+    "description": "A vessel for Karma and a key figure in the battle against the Ōtsutsuki clan.",
     "village": "Konohagakure"
   },
   {
-    "name": "Naruto Uzumaki (Next Generations)",
-    "id": 53,
-    "clan": "Uzumaki",
-    "description": "The Seventh Hokage and jinchūriki of Kurama, known for his determination and mastery of the Shadow Clone Technique.",
+    "name": "Isshiki Ōtsutsuki",
+    "id": 1,
+    "clan": ["Ōtsutsuki"],
+    "description": "A powerful member of the Ōtsutsuki clan with god-like abilities and a desire to harvest the chakra fruit.",
+    "village": "Unknown"
+  },
+  {
+    "name": "Madara Uchiha",
+    "id": 36,
+    "clan": ["Uchiha"],
+    "description": "A legendary Uchiha who sought to create a world of infinite Tsukuyomi, possessing immense power.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Obito Uchiha",
+    "id": 37,
+    "clan": ["Uchiha"],
+    "description": "A former student of Minato, who became the masked man behind much of the series' conflict.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Itachi Uchiha",
+    "id": 17,
+    "clan": ["Uchiha"],
+    "description": "A prodigy of the Uchiha clan, known for his sacrifice and mastery of the Sharingan.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Jiraiya",
+    "id": 18,
+    "clan": ["Unknown"],
+    "description": "One of the Legendary Sannin, a master of ninjutsu and mentor to Naruto Uzumaki.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Orochimaru",
+    "id": 27,
+    "clan": ["Akatsuki"],
+    "description": "One of the Legendary Sannin, a rogue ninja obsessed with immortality and mastering all ninjutsu.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Kabuto Yakushi",
+    "id": 19,
+    "clan": ["Yakushi"],
+    "description": "A former spy and disciple of Orochimaru, known for his medical ninjutsu and Sage Transformation.",
+    "village": "Konohagakure"
+  },
+  {
+    "name": "Deidara",
+    "id": 12,
+    "clan": ["Akatsuki"],
+    "description": "A rogue ninja and member of the Akatsuki, specializing in explosive clay techniques.",
+    "village": "Iwagakure"
+  },
+  {
+    "name": "Konan",
+    "id": 22,
+    "clan": ["Akatsuki"],
+    "description": "A member of the Akatsuki, known for her paper-based ninjutsu and loyalty to Nagato.",
+    "village": "Amegakure"
+  },
+  {
+    "name": "Pain",
+    "id": 28,
+    "clan": ["Akatsuki"],
+    "description": "The leader of the Akatsuki, possessing the Rinnegan and the ability to control multiple bodies.",
+    "village": "Amegakure"
+  },
+  {
+    "name": "Kisame Hoshigaki",
+    "id": 35,
+    "clan": ["Hoshigaki", "Akatsuki"],
+    "description": "A member of the Akatsuki, known as the 'Monster of the Hidden Mist' for his shark-like abilities.",
+    "village": "Kirigakure"
+  },
+  {
+    "name": "Zabuza Momochi",
+    "id": 34,
+    "clan": ["Momochi"],
+    "description": "The Demon of the Hidden Mist, a master of silent killing and wielder of the Kubikiribōchō.",
+    "village": "Kirigakure"
+  },
+  {
+    "name": "Haku",
+    "id": 14,
+    "clan": ["Yuki"],
+    "description": "A skilled ice-style user and loyal companion to Zabuza Momochi.",
+    "village": "Kirigakure"
+  },
+  {
+    "name": "Gaara",
+    "id": 13,
+    "clan": ["Gaara", "Fifth Kazekage"],
+    "description": "The Fifth Kazekage, once a jinchūriki of Shukaku, now a protector of his village.",
+    "village": "Sunagakure"
+  },
+  {
+    "name": "Gaara (Next Generations)",
+    "id": 40,
+    "clan": ["Gaara", "Fifth Kazekage"],
+    "description": "The Fifth Kazekage, once a jinchūriki of Shukaku, now a protector of his village.",
+    "village": "Sunagakure"
+  },
+  {
+    "name": "Killer Bee",
+    "id": 21,
+    "clan": ["Unknown"],
+    "description": "The jinchūriki of the Eight-Tails and a master of the unique Eight-Tails style of combat.",
+    "village": "Kumogakure"
+  },
+  {
+    "name": "Ōnoki",
+    "id": 26,
+    "clan": ["Unknown", "Third Tsuchikage"],
+    "description": "The Third Tsuchikage, known for his mastery of Earth Release and Particle Style techniques.",
+    "village": "Iwagakure"
+  },
+  {
+    "name": "Yamato",
+    "id": 33,
+    "clan": ["Unknown"],
+    "description": "A ninja with the ability to use Wood Release, tasked with keeping Naruto's Nine-Tails chakra in check.",
     "village": "Konohagakure"
   }
 ]

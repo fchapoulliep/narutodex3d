@@ -6,544 +6,279 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://fchapoulliep.github.io/3dpokedex</loc>
+  <loc>https://fchapoulliep.github.io/narutodex3d</loc>
   <priority>1.0</priority>
   <lastmod>2024-07-09T15:42:12+00:00</lastmod>
 </url>      
 
 <url>
-  <loc>https://fchapoulliep.github.io/3dpokedex/</loc>
+  <loc>https://fchapoulliep.github.io/narutodex3d/</loc>
   <priority>1.0</priority>
   <lastmod>2024-07-09T15:42:12+00:00</lastmod>
 </url>
 
 <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/1</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/1</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/2</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/2</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/3</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/3</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/4</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/4</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/5</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/5</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/6</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/6</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/7</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/7</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/8</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/8</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/9</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/9</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/10</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/10</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/11</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/11</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/12</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/12</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/13</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/13</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/14</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/14</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/15</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/15</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/16</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/16</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/17</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/17</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/18</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/18</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/19</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/19</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/20</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/20</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/21</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/21</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/22</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/22</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/23</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/23</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/24</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/24</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/25</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/25</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/26</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/26</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/27</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/27</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/28</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/28</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/29</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/29</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/30</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/30</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/31</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/31</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/32</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/32</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/33</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/33</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/34</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/34</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/35</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/35</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/36</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/36</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/37</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/37</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/38</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/38</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/39</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/39</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/40</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/40</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/41</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/41</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/42</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/42</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/43</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/43</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/44</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/44</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/45</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/45</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/46</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/46</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/47</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/47</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/48</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/48</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/49</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/49</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/50</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/50</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/51</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/51</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/52</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/52</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>
   <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/53</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/54</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/55</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/56</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/57</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/58</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/59</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/60</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/61</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/62</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/63</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/64</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/65</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/66</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/67</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/68</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/69</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/70</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/71</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/72</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/73</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/74</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/75</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/76</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/77</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/78</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/79</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/80</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/81</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/82</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/83</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/84</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/85</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/86</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/87</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/88</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/89</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/90</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/91</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/92</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/93</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/94</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/95</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/96</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/97</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/98</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/99</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/100</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/101</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/102</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/103</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/104</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/105</loc>
-    <priority>0.8</priority>
-    <lastmod>2024-12-12T15:47:55+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://fchapoulliep.github.io/3dpokedex/106</loc>
+    <loc>https://fchapoulliep.github.io/narutodex3d/53</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-12T15:47:55+00:00</lastmod>
   </url>

@@ -22,12 +22,27 @@ interface NarutoTypeProps {
 const NarutoType: React.FC<NarutoTypeProps> = ({ type }) => {
   return (
     <div className={`type-div`}>
-      <img
-        className="naruto-type"
-        id={type.toLowerCase()}
-        src={`${import.meta.env.BASE_URL}/type_icons/${type.toLowerCase()}.png`}
-        alt={type}
-      />
+      {type !== "Unknown" && type !== "Artificial Human" ? (
+        <img
+          className="naruto-type"
+          id={type
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()}
+          src={`${import.meta.env.BASE_URL}/type_icons/${type
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .replace("first ", "")
+            .replace("second ", "")
+            .replace("third ", "")
+            .replace("fourth ", "")
+            .replace("fifth ", "")
+            .replace("sixth ", "")
+            .replace("seventh ", "")}.png`}
+          alt={type}
+        />
+      ) : null}
       <p>{type.charAt(0).toUpperCase() + type.slice(1)}</p>
     </div>
   );

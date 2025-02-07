@@ -20,7 +20,7 @@ import NarutoType from "./NarutoType";
 interface NarutoCardProps {
   id: number;
   name: string;
-  clan: string;
+  clan: string[];
   village: string;
 }
 
@@ -41,10 +41,9 @@ const NarutoCard: React.FC<NarutoCardProps> = (narutocharacter) => {
       <div className="inner-element">
         <Link to={`/${narutocharacter.id}`}>
           <div className="naruto-types">
-            <NarutoType
-              key={narutocharacter.clan}
-              type={narutocharacter.clan}
-            />
+            {narutocharacter.clan.map((clanItem) => (
+              <NarutoType key={clanItem} type={clanItem} />
+            ))}
           </div>
           <p>{narutocharacter.name}</p>
           <img
