@@ -33,16 +33,16 @@ a:hover {
 }
 
 ::-webkit-scrollbar-track {
-  background: linear-gradient(rgb(232, 74, 68) 60px, transparent 60px);
+  background: linear-gradient(#f2a30b 60px, transparent 60px);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(210, 67, 61);
+  background-color: #f2a30b;
   border-radius: 10px;
   border: 3px solid transparent;
   background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(232, 74, 68);
+  background-color: #b87800;
 }

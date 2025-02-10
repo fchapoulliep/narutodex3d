@@ -32,7 +32,7 @@
 
 .swiper-slide-active .naruto-cards {
   height: 85%;
-  max-height: 575px;
+  max-height: 80%;
   transition: height 0.3s ease-in-out;
 }
 
