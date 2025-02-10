@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 850px) {
   #navbar .navbar-naruto {
-    width: 90%;
+    width: 95%;
     justify-content: center;
     gap: 15px;
   }

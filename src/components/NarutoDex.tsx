@@ -3,9 +3,9 @@ import React from "react";
 
 /* Importing Swiper components */
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Keyboard } from "swiper/modules";
+import { Navigation, Keyboard, EffectCoverflow } from "swiper/modules";
 import SwiperCore from "swiper/core";
-SwiperCore.use([Keyboard, Navigation]);
+SwiperCore.use([Keyboard, Navigation, EffectCoverflow]);
 import "swiper/swiper-bundle.css";
 
 /* Importing the CSS file */
@@ -97,11 +97,7 @@ const NarutoDex: React.FC = () => {
           href={`${import.meta.env.BASE_URL}`}
           style={{ height: "100%", display: "flex", alignItems: "center" }}
         >
-          <img
-            src={narutoLogo}
-            alt="Naruto Logo"
-            style={{ width: "120px" }}
-          />
+          <img src={narutoLogo} alt="Naruto Logo" style={{ width: "120px" }} />
         </a>
         <search id="search-bar">
           <input
@@ -134,8 +130,18 @@ const NarutoDex: React.FC = () => {
           freeMode={true}
           navigation={true}
           initialSlide={2}
-          keyboard
-          cssMode
+          keyboard={true}
+          effect="coverflow"
+          coverflowEffect={{
+            rotate: 30,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: false,
+          }}
+          style={{
+            minWidth: "100%",
+          }}
         >
           {narutoCharacterToShow.map((narutoCharacter, index) => (
             <SwiperSlide
