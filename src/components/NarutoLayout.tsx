@@ -1,5 +1,5 @@
 // NarutoLayout.tsx
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "./NavBar";
 import Slider from "./Slider";
 import { useParams } from "react-router-dom";
@@ -15,21 +15,28 @@ const lastId = String(Math.max(...narutoList.map((c) => c.id)));
  *
  * The component includes:
  * - A `NavBar` component at the top.
- * - A `Slider` component with direction "left" if the `narutoId` is not "1".
+ * - A `Slider` component with direction "left" if the character exists and the `narutoId` is not "1".
  * - A `NarutoCharacter` component that displays the Character based on the `narutoId` or a default ID if `narutoId` is not available.
- * - A `Slider` component with direction "right" if the `narutoId` is not the last character's id.
+ * - A `Slider` component with direction "right" if the character exists and is not the last one.
  *
  * @returns {JSX.Element} The rendered layout for the Naruto Character page.
  */
 const NarutoLayout: React.FC = () => {
   const { narutoId } = useParams<{ narutoId: string }>();
+  const character = narutoList.find((c) => c.id === Number(narutoId));
 
+  // The tab title follows in-app navigation; the built page of each character already has it.
+  useEffect(() => {
+    document.title = character ? `${character.name} | NarutoDex 3D` : "NarutoDex 3D";
+  }, [character]);
+
+  // No arrows on an unknown id: they would lead to other unknown ids.
   return (
     <>
       <NavBar />
-      {narutoId !== "1" && <Slider direction="left" />}
+      {character && narutoId !== "1" && <Slider direction="left" />}
       <NarutoCharacter narutoId={narutoId || "defaultId"} />
-      {narutoId !== lastId && <Slider direction="right" />}
+      {character && narutoId !== lastId && <Slider direction="right" />}
     </>
   );
 };

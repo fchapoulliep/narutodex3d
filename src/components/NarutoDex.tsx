@@ -31,6 +31,11 @@ import narutoLogo from "../assets/logo/narutoLogo.png";
  * )
  */
 const NarutoDex: React.FC = () => {
+  // Back on the list after a character page, the tab title goes back to the site name.
+  React.useEffect(() => {
+    document.title = "NarutoDex 3D";
+  }, []);
+
   const [narutoCharacterToShow, setNarutoCharacterToShow] =
     React.useState(narutoCharacterList);
   const [searchQuery, setSearchQuery] = React.useState("");
