@@ -46,6 +46,17 @@
   margin: 5px 0;
 }
 
+#naruto-overlay .description-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Only shown on phones, where the description folds into a bar */
+#naruto-overlay .description-toggle {
+  display: none;
+}
+
 #naruto-overlay .naruto-types {
   position: absolute;
   right: 0%;
@@ -84,5 +95,76 @@
 
   #naruto-overlay .naruto-types .type-div:first-child p {
     margin-right: 5px;
+  }
+}
+
+/* Phones: the description folds into a bar with the name; the toggle opens it upwards */
+@media (max-width: 768px) {
+  #naruto-overlay .naruto-description {
+    box-sizing: border-box;
+    min-width: 0;
+    /* Kept clear of the type panel, which can take 40% plus its 25px of padding */
+    max-width: calc(60% - 33px);
+    padding: 6px 18px 6px 10px;
+  }
+
+  /* The head spans the panel, so that the chevron stays on the right once open */
+  #naruto-overlay .description-head {
+    align-self: stretch;
+  }
+
+  #naruto-overlay .description-head h2 {
+    margin: 0;
+  }
+
+  #naruto-overlay .description-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+
+  /* The whole bar answers the tap, not only the chevron */
+  #naruto-overlay .description-toggle::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  #naruto-overlay .description-toggle svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: transform 200ms;
+  }
+
+  #naruto-overlay .naruto-description.open .description-toggle svg {
+    transform: rotate(180deg);
+  }
+
+  #naruto-overlay .description-details {
+    display: none;
+  }
+
+  #naruto-overlay .naruto-description.open .description-details {
+    display: block;
+  }
+
+  /* Open, the panel stays above the rest of the scene */
+  #naruto-overlay .naruto-description.open {
+    z-index: 2;
   }
 }

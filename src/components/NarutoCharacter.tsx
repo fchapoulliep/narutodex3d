@@ -122,6 +122,7 @@ const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
     "visible" | "closing" | "hidden"
   >("visible");
   const [drawnPath, setDrawnPath] = React.useState<string | null>(null);
+  const [descriptionOpen, setDescriptionOpen] = React.useState(false);
   const modelDrawn = drawnPath === modelPath;
   const loaderShownAt = useRef(performance.now());
 
@@ -182,9 +183,28 @@ const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
           onClosed={() => setLoaderPhase("hidden")}
         />
       )}
-      <div className="naruto-description">
-        <h2>{narutocharacter.name}</h2>
-        <p>{narutocharacter.description}</p>
+      {/* On phones the description folds into a bar with the name, opened on demand;
+          on wider screens it is always open and the toggle is hidden */}
+      <div className={`naruto-description${descriptionOpen ? " open" : ""}`}>
+        <div className="description-head">
+          <h2>{narutocharacter.name}</h2>
+          <button
+            type="button"
+            className="description-toggle"
+            aria-expanded={descriptionOpen}
+            aria-controls="naruto-details"
+            aria-label={descriptionOpen ? "Hide the description" : "Show the description"}
+            onClick={() => setDescriptionOpen((open) => !open)}
+          >
+            {/* Lucide "chevron-up" icon (ISC license) */}
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m18 15-6-6-6 6" />
+            </svg>
+          </button>
+        </div>
+        <div id="naruto-details" className="description-details">
+          <p>{narutocharacter.description}</p>
+        </div>
       </div>
       <div className="naruto-types">
         {narutocharacter.clan.map((clanItem) => (
