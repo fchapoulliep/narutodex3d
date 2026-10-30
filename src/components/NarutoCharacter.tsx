@@ -82,7 +82,9 @@ const NarutoModel: React.FC<NarutoModelProps> = ({ modelPath, onReady }) => {
     }
   }, [scene]);
 
-  return <primitive object={scene} scale={0.25} position={[0, -2, 0.5]} />;
+  // Raised half a unit so that the model sits midway between the navigation
+  // bar and the bottom panels instead of resting on the bottom edge
+  return <primitive object={scene} scale={0.25} position={[0, -1.5, 0.5]} />;
 };
 
 /**
