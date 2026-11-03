@@ -33,7 +33,7 @@ const NavBar: React.FC = () => {
           {/* Phones show the short labels: the long ones overflowed the bar */}
           <Link to="/" aria-label="Back to the NarutoDex">
             <span className="label-long">Back to the NarutoDex</span>
-            <span className="label-short" aria-hidden="true">← NarutoDex</span>
+            <span className="label-short" aria-hidden="true">NarutoDex</span>
           </Link>
         </div>
         <div className="navbar-time">{time}</div>
