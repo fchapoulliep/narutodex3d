@@ -11,7 +11,7 @@ Live: https://fchapoulliep.github.io/narutodex3d/
 - Filter by village: Konohagakure, Sunagakure, Kirigakure, Iwagakure, Kumogakure, Amegakure, or Unknown
 - Tilt cards with a glare effect, styled after the character's village, with clan and title badges (Uchiha, Akatsuki, Seventh Hokage and more)
 - A page per character with its name, description, badges and a background matching its village
-- Interactive 3D viewer: drag to orbit, scroll to zoom, model scaled to fit the view, idle animation played when the model has one
+- Interactive 3D viewer: drag to orbit, scroll to zoom. Each character holds a static pose from the anime, shown at its real size: the model is scaled on its standing height, so a crouching character looks crouched and a raised arm does not shrink the body
 - Previous and next arrows to step through the characters
 - Sharingan loading animation and a navigation bar with a live clock on the character page
 
@@ -61,7 +61,7 @@ npm run deploy
 ```
 public/
   models/<Name>/<Name>.glb     3D models, one folder per character
-  sprites/<Name>.png           card images
+  sprites/<Name>.png           card images, rendered from each model in its pose
   type_icons/                  clan and title badge icons
   backgrounds/                 character page backgrounds, one per village
 src/
@@ -74,6 +74,7 @@ src/
 ## Notes
 
 - A character's `name` in `src/data/narutocharacters.json` is also the file name of its model and sprite. Adding a character means adding the JSON entry, `public/models/<Name>/<Name>.glb` and `public/sprites/<Name>.png`.
-- The models are glTF binary files exported from Blender, loaded with Drei's `useGLTF`. They ship with the repository (about 247 MB), so the first clone takes a while.
+- The models are glTF binary files exported from Blender, loaded with Drei's `useGLTF`. They ship with the repository (about 256 MB), so the first clone takes a while.
+- Each pose is baked into the model as its rest pose, with no animation clip. The scene carries two heights as glTF extras, `standHeight` (the character standing, before posing) and `poseHeight` (the posed model), both measured in Blender; the viewer scales its own bounding box by their ratio. A model without them falls back to fitting its bounding box, and a model with an `idle` clip still plays it.
 - Characters live at real paths (`/narutodex3d/12`). GitHub Pages has no fallback for a single-page app, so the build (a small plugin in `vite.config.ts`) writes one HTML file per character, with its own title, description, share image and canonical URL, plus a `404.html` that loads the app on any other path and a `sitemap.xml` generated from the character data. Old `#/12` links are redirected.
 - Fan project, not affiliated with or endorsed by the owners of Naruto. Characters and related assets belong to their respective owners.
