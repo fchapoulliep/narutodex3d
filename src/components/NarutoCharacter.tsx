@@ -111,7 +111,17 @@ const NarutoModel: React.FC<NarutoModelProps> = ({
       const size = new THREE.Vector3();
       box.getSize(size);
 
-      const delta = Math.min(1.0 / size.x, 1.0 / size.y, 1.0 / size.z);
+      // A posed model carries two heights measured at export, standing and
+      // posed: their ratio turns the posed box into the box of the character
+      // standing, so a crouch or a raised hand keeps the character's size
+      // instead of being stretched to fill the frame. Only the ratio is used:
+      // three.js measures a skinned mesh in units of its own. Files without
+      // them fall back to their largest side.
+      const { standHeight, poseHeight } = scene.userData;
+      const delta =
+        typeof standHeight === "number" && typeof poseHeight === "number" && poseHeight > 0
+          ? 1.0 / ((size.y * standHeight) / poseHeight)
+          : Math.min(1.0 / size.x, 1.0 / size.y, 1.0 / size.z);
       scene.scale.set(delta, delta, delta);
       scene.rotation.y = -0.5;
     }
