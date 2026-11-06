@@ -11,7 +11,7 @@ Live: https://fchapoulliep.github.io/narutodex3d/
 - Filter by village: Konohagakure, Sunagakure, Kirigakure, Iwagakure, Kumogakure, Amegakure, or Unknown
 - Tilt cards with a glare effect, styled after the character's village, with clan and title badges (Uchiha, Akatsuki, Seventh Hokage and more)
 - A page per character with its name, description, badges and a background matching its village
-- Interactive 3D viewer: drag to orbit, scroll to zoom. Each character holds a static pose from the anime, shown at its real size: the model is scaled on its standing height, so a crouching character looks crouched and a raised arm does not shrink the body
+- Interactive 3D viewer: drag to orbit, scroll to zoom, auto-rotation. Each character holds a static pose from the anime, shown at its real size: the model is scaled on its standing height, so a crouching character looks crouched and a raised arm does not shrink the body (unless it would reach above the frame). The camera matches BleachDex: close up and slightly from above
 - Previous and next arrows to step through the characters
 - Sharingan loading animation and a navigation bar with a live clock on the character page
 

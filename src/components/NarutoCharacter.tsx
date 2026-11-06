@@ -35,9 +35,31 @@ const ENTRANCE_S = 0.5;
 
 /**
  * How far behind its place the model starts, in scene units: with the camera
- * 5 units away, it first shows at a fifth of its size.
+ * about 6 units away, it first shows at under a quarter of its size.
  */
 const ENTRANCE_DEPTH = 20;
+
+/** Height of the character standing, in scene units. */
+const MODEL_HEIGHT = 4;
+
+/**
+ * How far a pose may reach above the standing height (a raised arm) before
+ * the character is scaled down to keep it below the navigation bar.
+ */
+const POSE_HEADROOM = 1.03;
+
+/**
+ * The camera of BleachDex and MarioDex: a field of view of 50 degrees, from
+ * slightly above (along 0, 10, 50, about 11 degrees down), close enough for
+ * the character standing to fill about three quarters of the height.
+ */
+const CAMERA_FOV = 50;
+const CAMERA_DISTANCE = 5.85;
+const CAMERA_POSITION: [number, number, number] = [
+  0,
+  (10 / Math.hypot(10, 50)) * CAMERA_DISTANCE,
+  (50 / Math.hypot(10, 50)) * CAMERA_DISTANCE,
+];
 
 /**
  * Component that renders a 3D model of a Naruto Character using the provided model path and Character ID.
@@ -107,31 +129,39 @@ const NarutoModel: React.FC<NarutoModelProps> = ({
 
   useEffect(() => {
     if (scene) {
-      const box = new THREE.Box3().setFromObject(scene);
-      const size = new THREE.Vector3();
-      box.getSize(size);
+      // A model already seen comes back from drei's cache as the last visit
+      // left it: measure it from scratch
+      scene.position.set(0, 0, 0);
+      scene.rotation.set(0, 0, 0);
+      scene.scale.setScalar(1);
+      const size = new THREE.Box3().setFromObject(scene).getSize(new THREE.Vector3());
 
       // A posed model carries two heights measured at export, standing and
       // posed: their ratio turns the posed box into the box of the character
       // standing, so a crouch or a raised hand keeps the character's size
       // instead of being stretched to fill the frame. Only the ratio is used:
-      // three.js measures a skinned mesh in units of its own. Files without
-      // them fall back to their largest side.
+      // three.js measures a skinned mesh in units of its own. A pose reaching
+      // far above the head is the exception: it is scaled down to stay in the
+      // frame. Files without the heights fall back to their largest side.
       const { standHeight, poseHeight } = scene.userData;
-      const delta =
+      const framed =
         typeof standHeight === "number" && typeof poseHeight === "number" && poseHeight > 0
-          ? 1.0 / ((size.y * standHeight) / poseHeight)
-          : Math.min(1.0 / size.x, 1.0 / size.y, 1.0 / size.z);
-      scene.scale.set(delta, delta, delta);
+          ? Math.max((size.y * standHeight) / poseHeight, size.y / POSE_HEADROOM)
+          : Math.max(size.x, size.y, size.z);
+      scene.scale.setScalar(MODEL_HEIGHT / framed);
       scene.rotation.y = -0.5;
+
+      // The character standing is centered on the orbit target, as in
+      // BleachDex: the feet rest on the same floor whatever the pose, and the
+      // model stays on the orbit axis (x and z at 0) so that it turns in place
+      const box = new THREE.Box3().setFromObject(scene);
+      scene.position.y = -MODEL_HEIGHT / 2 - box.min.y;
     }
   }, [scene]);
 
-  // Raised half a unit so that the model sits midway between the navigation
-  // bar and the bottom panels instead of resting on the bottom edge
   return (
     <group ref={group}>
-      <primitive object={scene} scale={0.25} position={[0, -1.5, 0.5]} />
+      <primitive object={scene} />
     </group>
   );
 };
@@ -295,7 +325,7 @@ const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
           // Hidden until the model is in place, then faded in
           opacity: modelDrawn ? 1 : 0,
           transition: "opacity 150ms",
-        }} shadows key={modelPath}>
+        }} shadows key={modelPath} camera={{ fov: CAMERA_FOV, position: CAMERA_POSITION }}>
         <ambientLight intensity={1} />
         <directionalLight position={[-5, 5, 5]} intensity={2} castShadow />
         <directionalLight position={[5, 5, -5]} intensity={2} castShadow />
@@ -303,7 +333,8 @@ const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
           enableDamping
           dampingFactor={0.25}
           minDistance={2}
-          maxDistance={6}
+          maxDistance={8}
+          autoRotate
         />
         {/* A model still loading suspends the scene only: without this boundary,
             the page itself would wait, and the previous page would stay on screen */}
