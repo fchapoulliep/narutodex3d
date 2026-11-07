@@ -7,6 +7,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 import narutoList from "../data/narutocharacters.json";
 import Loader from "./Loader";
+import Onboarding from "./Onboarding";
 import * as THREE from "three";
 import "../css/narutocharacter.css";
 import NarutoType from "./NarutoType";
@@ -346,6 +347,15 @@ const NarutoCharacter: React.FC<NarutoProps> = ({ narutoId }) => {
           />
         </Suspense>
       </Canvas>
+      <Onboarding
+        step="model"
+        ready={modelDrawn}
+        text={{
+          mouse: `Drag to spin ${narutocharacter.name} around, scroll to zoom in.`,
+          touch: `Swipe to spin ${narutocharacter.name} around, pinch to zoom in.`,
+        }}
+        button="Let's go"
+      />
     </div>
   );
 };

@@ -13,6 +13,7 @@ Live: https://fchapoulliep.github.io/narutodex3d/
 - A page per character with its name, description, badges and a background matching its village
 - Interactive 3D viewer: drag to orbit, scroll to zoom, auto-rotation. Each character holds an iconic pose from the anime and breathes in it (an 8 s idle loop: the breath, the head, a slight knee bend with the feet planted flat, the arms a little), shown at its real size: the model is scaled on its standing height, so a crouching character looks crouched and a raised arm does not shrink the body (unless it would reach above the frame). The camera matches BleachDex: close up and slightly from above
 - Previous and next arrows to step through the characters
+- A guide on the first visit: the page darkens around the centred card, then around the model on the first character page, and a dialogue box says to click the card, then to drag and zoom (remembered by the browser, once per dex)
 - Sharingan loading animation and a navigation bar with a live clock on the character page
 
 ## Tech Stack

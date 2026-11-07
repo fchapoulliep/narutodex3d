@@ -16,6 +16,7 @@ import narutoCharacterList from "../data/narutocharacters.json";
 
 /* Importing the Footer component */
 import Footer from "./Footer";
+import Onboarding from "./Onboarding";
 import NarutoCard from "./NarutoCard";
 
 import narutoLogo from "../assets/logo/narutoLogo.png";
@@ -166,6 +167,15 @@ const NarutoDex: React.FC = () => {
         </Swiper>
       </div>
       <Footer />
+      <Onboarding
+        step="cards"
+        target=".swiper-slide-active .naruto-cards"
+        text={{
+          mouse: "Click a card to meet the character in 3D!",
+          touch: "Tap a card to meet the character in 3D!",
+        }}
+        button="Got it"
+      />
     </div>
   );
 };
