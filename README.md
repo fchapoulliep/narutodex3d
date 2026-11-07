@@ -11,7 +11,7 @@ Live: https://fchapoulliep.github.io/narutodex3d/
 - Filter by village: Konohagakure, Sunagakure, Kirigakure, Iwagakure, Kumogakure, Amegakure, or Unknown
 - Tilt cards with a glare effect, styled after the character's village, with clan and title badges (Uchiha, Akatsuki, Seventh Hokage and more)
 - A page per character with its name, description, badges and a background matching its village
-- Interactive 3D viewer: drag to orbit, scroll to zoom, auto-rotation. Each character holds a static pose from the anime, shown at its real size: the model is scaled on its standing height, so a crouching character looks crouched and a raised arm does not shrink the body (unless it would reach above the frame). The camera matches BleachDex: close up and slightly from above
+- Interactive 3D viewer: drag to orbit, scroll to zoom, auto-rotation. Each character holds an iconic pose from the anime and breathes in it (an 8 s idle loop: the breath, the head, a slight knee bend with the feet planted flat, the arms a little), shown at its real size: the model is scaled on its standing height, so a crouching character looks crouched and a raised arm does not shrink the body (unless it would reach above the frame). The camera matches BleachDex: close up and slightly from above
 - Previous and next arrows to step through the characters
 - Sharingan loading animation and a navigation bar with a live clock on the character page
 
@@ -75,6 +75,6 @@ src/
 
 - A character's `name` in `src/data/narutocharacters.json` is also the file name of its model and sprite. Adding a character means adding the JSON entry, `public/models/<Name>/<Name>.glb` and `public/sprites/<Name>.png`.
 - The models are glTF binary files exported from Blender, loaded with Drei's `useGLTF`. They ship with the repository (about 256 MB), so the first clone takes a while.
-- Each pose is baked into the model as its rest pose, with no animation clip. The scene carries two heights as glTF extras, `standHeight` (the character standing, before posing) and `poseHeight` (the posed model), both measured in Blender; the viewer scales its own bounding box by their ratio. A model without them falls back to fitting its bounding box, and a model with an `idle` clip still plays it.
+- Each pose is baked into the model as its rest pose, and an `Idle` clip of 8 s breathes around it; a hand that touches something (the other hand, a hip, the face) follows what it touches, and the feet never move. The scene carries two heights as glTF extras, `standHeight` (the character standing, before posing) and `poseHeight` (the posed model), both measured in Blender; the viewer scales its own bounding box by their ratio. A model without them falls back to fitting its bounding box. The viewer plays the clip whose name contains `idle` or `wait`.
 - Characters live at real paths (`/narutodex3d/12`). GitHub Pages has no fallback for a single-page app, so the build (a small plugin in `vite.config.ts`) writes one HTML file per character, with its own title, description, share image and canonical URL, plus a `404.html` that loads the app on any other path and a `sitemap.xml` generated from the character data. Old `#/12` links are redirected.
 - Fan project, not affiliated with or endorsed by the owners of Naruto. Characters and related assets belong to their respective owners.
