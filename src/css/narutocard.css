@@ -8,65 +8,65 @@
   color: white;
   border-radius: 20px;
   transform-style: preserve-3d;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 26px rgba(70, 42, 14, 0.28);
   transition: height 0.3s ease-in-out;
   max-height: 550px;
 }
 
+/* The village symbol, drawn as a mask in translucent white whatever the
+   card's colour (the SVGs carry a fill of their own, tuned to the old light
+   cards) */
+.naruto-cards::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0.14);
+  -webkit-mask: var(--symbol) no-repeat var(--symbol-position) / 90%;
+  mask: var(--symbol) no-repeat var(--symbol-position) / 90%;
+}
+
 .naruto-cards.konohagakure {
-  background-color: #fbbc42;
-  background-image: url("../assets/card-types/konohagakure.svg");
-  background-repeat: no-repeat;
-  background-position: 80px 180px;
-  background-size: 90%;
+  background-color: #b9500a;
+  --symbol: url("../assets/card-types/konohagakure.svg");
+  --symbol-position: 80px 180px;
 }
 
 .naruto-cards.sunagakure {
-  background-color: #d4a017;
-  background-image: url("../assets/card-types/sunagakure.svg");
-  background-repeat: no-repeat;
-  background-position: 100px 180px;
-  background-size: 90%;
+  background-color: #8c5f0e;
+  --symbol: url("../assets/card-types/sunagakure.svg");
+  --symbol-position: 100px 180px;
 }
 
 .naruto-cards.kirigakure {
-  background-color: #4a90e2;
-  background-image: url("../assets/card-types/kirigakure.svg");
-  background-repeat: no-repeat;
-  background-position: 100px 180px;
-  background-size: 90%;
+  background-color: #2c5aa0;
+  --symbol: url("../assets/card-types/kirigakure.svg");
+  --symbol-position: 100px 180px;
 }
 
 .naruto-cards.iwagakure {
-  background-color: #8b4513;
-  background-image: url("../assets/card-types/iwagakure.svg");
-  background-repeat: no-repeat;
-  background-position: 100px 140px;
-  background-size: 90%;
+  background-color: #7a4321;
+  --symbol: url("../assets/card-types/iwagakure.svg");
+  --symbol-position: 100px 140px;
 }
 
 .naruto-cards.kumogakure {
-  background-color: #e0dede;
-  background-image: url("../assets/card-types/kumogakure.svg");
-  background-repeat: no-repeat;
-  background-position: 100px 180px;
-  background-size: 90%;
+  background-color: #4f5a68;
+  --symbol: url("../assets/card-types/kumogakure.svg");
+  --symbol-position: 100px 180px;
 }
 
 .naruto-cards.unknown {
-  background-color: #808080;
-  background-image: url("../assets/card-types/unknown.svg");
-  background-repeat: no-repeat;
-  background-position: 100px 180px;
-  background-size: 90%;
+  background-color: #555558;
+  --symbol: url("../assets/card-types/unknown.svg");
+  --symbol-position: 100px 180px;
 }
 
 .naruto-cards.amegakure {
-  background-color: #5f9ea0;
-  background-image: url("../assets/card-types/amegakure.svg");
-  background-repeat: no-repeat;
-  background-position: 100px 180px;
-  background-size: 90%;
+  background-color: #26686c;
+  --symbol: url("../assets/card-types/amegakure.svg");
+  --symbol-position: 100px 180px;
 }
 
 .inner-element {

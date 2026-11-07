@@ -3,6 +3,7 @@
   align-items: center;
   width: 100%;
   flex-direction: column;
+  background: radial-gradient(ellipse 80% 70% at 50% 40%, var(--paper-light) 0%, var(--paper) 55%, var(--paper-dark) 100%);
 }
 
 #narutodex-navbar {
@@ -10,7 +11,8 @@
   height: 60px;
   top: 0;
   width: 100%;
-  background-color: #f2a30b;
+  background-color: var(--ink);
+  border-bottom: 3px solid var(--orange);
   z-index: 1000;
   display: flex;
   flex-direction: row;
@@ -34,6 +36,8 @@
   height: 85%;
   max-height: 85%;
   transition: height 0.3s ease-in-out;
+  /* the active card ringed in ink, a paper gap between */
+  box-shadow: 0 0 0 3px var(--paper), 0 0 0 5px var(--ink), 0 22px 40px rgba(70, 42, 14, 0.35);
 }
 
 @keyframes fadeIn {
@@ -44,7 +48,8 @@
 }
 
 #search-bar {
-  border: 2px solid #ccc;
+  border: 2px solid var(--ink-soft);
+  background-color: #fffaf0;
   border-radius: 25px;
   min-width: 220px;
   max-width: 100%;
@@ -54,7 +59,7 @@
 }
 
 #search-bar:focus-within {
-  border-color: rgb(0, 0, 0);
+  border-color: var(--orange);
 }
 
 #search-bar input {
@@ -63,6 +68,8 @@
   padding: 8px;
   border: none;
   outline: none;
+  background-color: #fffaf0;
+  color: var(--ink);
 }
 
 #search-bar select {
@@ -70,7 +77,9 @@
   flex: 0 0 30%;
   padding: 8px;
   border: none;
-  border-left: 2px solid #ccc;
+  border-left: 2px solid #d9c9a8;
+  background-color: #fffaf0;
+  color: var(--ink);
 }
 
 @media screen and (max-width: 768px) {
